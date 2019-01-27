@@ -8,7 +8,8 @@ from selenium.common.exceptions import *
 from selenium.webdriver.support.wait import WebDriverWait
 
 # 额外抽取的授权模块
-from utils import auth
+#from utils import auth
+import auth
 
 
 class QMM(object):
